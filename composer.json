@@ -1,0 +1,23 @@
+{
+    "name": "opencontent/bcgooglesitemaps-ls",
+    "description": "BC Google Sitemaps (OpenContent Fork)",
+    "type": "ezpublish-legacy-extension",
+    "authors": [
+        {
+            "name": "Brookins Consulting",
+            "homepage": "http://brookinsconsulting.com"
+        },
+        {
+            "name": "OpenContent",
+            "homepage": "http://www.opencontent.it"
+        }
+    ],
+    "license": "GPL-2.0",    
+    "minimum-stability": "dev",
+    "require": {
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "bcgooglesitemaps"
+    }
+}
