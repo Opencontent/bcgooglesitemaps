@@ -285,6 +285,8 @@ foreach ( $siteaccesses as $siteaccess )
      * BC: Write sitemap xml file to disk
      */
     $dom->save( $xmlDataFile );
+    $fileHandler = eZClusterFileHandler::instance();
+    $fileHandler->fileStore( $xmlDataFile, 'googlesitemap', true, 'text/xml' );
 
     /**
      * BC: Alert user of script completion
